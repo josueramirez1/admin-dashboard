@@ -141,6 +141,7 @@ body {
 
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   padding: 20px;
   gap: 15px;
 }
@@ -236,4 +237,24 @@ body {
   border-radius: 5px;
   padding: 20px;
   height: 100%;
+}
+
+.trending-handlers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trending-handlers img {
+  height: 30px;
+}
+
+.trending-handlers p {
+  font-size: 12px;
+  color: grey;
+}
+
+.trending-handler {
+  display: flex;
+  gap: 15px;
 }
